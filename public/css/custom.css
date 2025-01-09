@@ -1,0 +1,191 @@
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+}
+
+.feature-icon {
+    font-size: 3rem;
+    color: #007bff;
+}
+
+.login-card {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+.login-card h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color: #86b7fe;
+}
+.input-group-text {
+    background-color: #f8f9fa;
+}
+
+.register-card {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+.register-card h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.consultation-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.consultation-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.consultation-container .form-label {
+    font-weight: 500;
+}
+
+.alert-custom {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 0.25rem;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.about-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+
+.developer-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.developer-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.developer-name {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.developer-description {
+    margin-top: 10px;
+    color: #555;
+}
+
+/* CSS untuk tampilan panel admin */
+.admin-container {
+    display: flex;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Sidebar untuk layar besar */
+.sidebar {
+    background-color: #343a40;
+    color: #ffffff;
+    min-width: 250px;
+    padding: 20px;
+}
+
+.sidebar .nav-link {
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #495057;
+    border-radius: 5px;
+}
+
+.account-info {
+    font-size: 14px;
+    color: #ffc107;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+/* Responsif */
+@media (max-width: 992px) {
+    .sidebar {
+        display: none;
+    }
+
+    .content {
+        padding: 10px;
+    }
+}
+
+
+.card-stat {
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-stat h3 {
+    margin: 0;
+}
+
+.card-stat .icon {
+    font-size: 2.5rem;
+    opacity: 0.7;
+}
+
+.card-konsultasi {
+    background-color: #007bff;
+}
+
+.card-gejala {
+    background-color: #28a745;
+}
+
+.card-kerusakan {
+    background-color: #dc3545;
+}
+
+.card-user {
+    background-color: #ffc107;
+}
