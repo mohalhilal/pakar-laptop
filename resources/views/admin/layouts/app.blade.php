@@ -9,13 +9,13 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Sistem Pakar Laptop') }}</title>
-    <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/datatables.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/custom.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/datatables.min.css') }}">
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
-    <script src="{{ asset('js/jquery.js') }}"></script>
-    <script src="{{ asset('js/datatables.min.js') }}"></script>
+    <script src="{{ secure_asset('js/jquery.js') }}"></script>
+    <script src="{{ secure_asset('js/datatables.min.js') }}"></script>
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
