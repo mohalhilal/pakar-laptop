@@ -13,10 +13,10 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
-    <link rel="stylesheet" href="{{ secure_asset('css/custom.css') }}">
-    <link rel="stylesheet" href="{{ secure_asset('css/datatables.min.css') }}">
-    <script src="{{ secure_asset('js/jquery.js') }}"></script>
-    <script src="{{ secure_asset('js/datatables.min.js') }}"></script>
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/css/datatables.min.css">
+    <script src="/js/jquery.js"></script>
+    <script src="/js/datatables.min.js"></script>
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
@@ -97,6 +97,6 @@
     </div>
 </body>
 
-<script src="asset/js/jquery.js"></script>
+<script src="js/jquery.js"></script>
 
 </html>
